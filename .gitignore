@@ -1,1 +1,63 @@
 /Reference
+# ==========================================
+# 编译输出产物（中间文件与二进制）
+# ==========================================
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+*.build_log.htm
+*.lst
+*.dep
+*.lnp
+*.sct.bak
+
+# ==========================================
+# Keil MDK (uVision) 临时与个人配置文件
+# ==========================================
+*.uvguix.*
+*.uvoptx
+Listings/
+Objects/
+JLinkLog.txt
+*.bak
+
+# ==========================================
+# STM32CubeIDE / Eclipse / GCC 编译产物
+# ==========================================
+Debug/
+Release/
+.metadata/
+.settings/language.settings.xml
+
+# ==========================================
+# IAR Embedded Workbench
+# ==========================================
+*.ewt
+*.ewd
+settings/
+
+# ==========================================
+# VS Code / CLion / CMake
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ==========================================
+# 操作系统缓存
+# ==========================================
+.DS_Store
+Thumbs.db
+*.tmp
